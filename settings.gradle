@@ -1,0 +1,2 @@
+rootProject.name = "MultiHayDay"
+include ':app'
