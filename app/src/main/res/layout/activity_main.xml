@@ -1,1 +1,33 @@
-java
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F2F2F7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🍎 Multi Hay Day Launcher"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="10dp"/>
+
+    <Button
+        android:id="@+id/openGame"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Buka Hay Day"
+        android:background="#007AFF"
+        android:textColor="#FFFFFF"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="#DDDDDD"
+        android:dividerHeight="1dp"/>
+
+</LinearLayout>
